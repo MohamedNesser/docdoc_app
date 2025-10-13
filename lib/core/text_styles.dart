@@ -8,6 +8,11 @@ class TextStyles {
     fontWeight: FontWeight.w700,
     color: ColorManger.blackcolor,
   );
+  static TextStyle font14blackw700 = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w700,
+    color: ColorManger.blackcolor,
+  );
   static TextStyle font32bluebold = TextStyle(
     fontSize: 32.sp,
     fontWeight: FontWeight.bold,
@@ -22,5 +27,15 @@ class TextStyles {
     fontSize: 16.sp,
     fontWeight: FontWeight.w600,
     color: ColorManger.whitecolor,
+  );
+  static TextStyle font12bluereguler = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w400,
+    color: ColorManger.primarycolor,
+  );
+  static TextStyle font14medium = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w500,
+    color: ColorManger.graylightercolor,
   );
 }

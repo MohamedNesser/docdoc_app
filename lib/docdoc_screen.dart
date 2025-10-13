@@ -22,7 +22,7 @@ class DocdocApp extends StatelessWidget {
           primaryColor: ColorManger.primarycolor,
           scaffoldBackgroundColor: Colors.white,
         ),
-        initialRoute: '/OnboardingScreen',
+        initialRoute: '/LoginScreen',
         onGenerateRoute: appRouter.generateRoute,
       ),
     );
