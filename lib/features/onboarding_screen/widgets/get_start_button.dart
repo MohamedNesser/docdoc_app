@@ -1,3 +1,5 @@
+import 'package:docdoc_app/core/helpers/extaiones.dart';
+import 'package:docdoc_app/core/routing/routes.dart';
 import 'package:docdoc_app/core/text_styles.dart';
 import 'package:docdoc_app/core/theming/app_color.dart';
 import 'package:flutter/material.dart';
@@ -9,7 +11,9 @@ class GetStartButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      onPressed: () {},
+      onPressed: () {
+        context.pushName(Routes.LoginScreen);
+      },
       style: TextButton.styleFrom(
         backgroundColor: ColorManger.primarycolor,
         tapTargetSize: MaterialTapTargetSize.shrinkWrap,

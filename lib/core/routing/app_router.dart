@@ -1,5 +1,6 @@
 import 'package:docdoc_app/core/routing/routes.dart';
 import 'package:docdoc_app/features/home_screen/ui/home_screen.dart';
+import 'package:docdoc_app/features/login_screen/ui/login_screen.dart';
 import 'package:docdoc_app/features/onboarding_screen/ui/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -8,6 +9,8 @@ class AppRouter {
     switch (settings.name) {
       case Routes.OnboardingScreen:
         return MaterialPageRoute(builder: (_) => OnboardingScreen());
+      case Routes.LoginScreen:
+        return MaterialPageRoute(builder: (_) => LoginScreen());
       case Routes.HomeScreen:
         return MaterialPageRoute(builder: (_) => HomeScreen());
       default:
