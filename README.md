@@ -1,6 +1,7 @@
 # docdoc_app
 
-A new Flutter project.
+<img width="1057" height="1008" alt="github_onboardingscreen" src="https://github.com/user-attachments/assets/bdd4aee5-ed27-4ffe-abc5-8a061471e990" />
+
 
 ## Getting Started
 
